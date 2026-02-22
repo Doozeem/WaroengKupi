@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="panel" x1="10%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c492d" />
+      <stop offset="100%" stop-color="#3f2316" />
+    </linearGradient>
+    <linearGradient id="beanGradient512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a3d" />
+      <stop offset="100%" stop-color="#dd6c10" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="128" fill="#f8f3ed" />
+  <rect x="44" y="44" width="424" height="424" rx="132" fill="url(#panel)" />
+  <rect x="44" y="44" width="424" height="190" rx="132" fill="url(#glow)" />
+
+  <path d="M160 216h192v32c0 66.4-43.2 112-96 112s-96-45.6-96-112v-32z" fill="#ffffff" />
+  <path
+    d="M336 232h38.4c23.2 0 41.6 19.2 41.6 42.4s-18.4 42.4-41.6 42.4H356"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+  <path d="M211.2 161.6c22.4-16 51.2-16 73.6 0-22.4 16-51.2 16-73.6 0z" fill="url(#beanGradient512)" />
+  <path d="M248 148c-8 8.8-8 20.8 0 29.6" stroke="#5c341f" stroke-width="11.2" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="maskBg" x1="6%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c492d" />
+      <stop offset="55%" stop-color="#5c341f" />
+      <stop offset="100%" stop-color="#2f1a11" />
+    </linearGradient>
+    <linearGradient id="beanGradientMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a3d" />
+      <stop offset="100%" stop-color="#dd6c10" />
+    </linearGradient>
+    <radialGradient id="highlight" cx="24%" cy="16%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="140" fill="url(#maskBg)" />
+  <rect width="512" height="512" rx="140" fill="url(#highlight)" />
+
+  <path d="M136 198h240v40c0 80-54 134-120 134s-120-54-120-134v-40z" fill="#ffffff" />
+  <path
+    d="M356 216h40c26 0 46 21 46 47s-20 47-46 47h-22"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+  <path d="M200 134c26-18 60-18 86 0-26 18-60 18-86 0z" fill="url(#beanGradientMask)" />
+  <path d="M244 120c-10 10-10 25 0 35" stroke="#5c341f" stroke-width="10" stroke-linecap="round" />
+</svg>
